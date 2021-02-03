@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+   /* background-image: url(../images/neutral.jpg); */
+    background-color: #CFCFCF;
+    background-size: cover;   
+}
+
+main{
+    flex-grow: 1; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    font-size: 30px;
+    text-align: center;
+}
+
+header{
+    border-bottom: 1px solid white;
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo{
+   background-image: url(../images/catlogo.png);  
+    width: 60px; 
+    height: 60px; 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    grid-gap: 30px; 
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    grid-gap: 50px; 
+    padding-bottom: 20px;
+    padding-top: 20px; 
+}
+
+.credits{
+    text-align: right; 
+    font-family: 'Playfair Display', serif;
+}
+
+.joke{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: url(../images/catlogocrop.png), auto;
+}
+
+.joke h1:not(:first-child){
+    display: none;
+}
+
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black; 
+    font-family: 'Playfair Display', serif;
+}
+
+/*
+.small{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.big{
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+*/
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+h2{
+    padding: 0;
+    margin: 0;
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+}
+*/
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.neutral{
+    background-repeat: no-repeat;
+    background-color: #CFCFCF;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
